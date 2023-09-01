@@ -11,7 +11,7 @@ Projet réalisé dans le cadre de l'UE Algorithmique et Programmation Orientée 
 
 <div align="center">
 
-![solo demo](./img/solo.png)
+<img src="./img/solo.png" width=300>
 
 </div>
 

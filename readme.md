@@ -25,7 +25,7 @@ Projet réalisé dans le cadre de l'UE Algorithmique et Programmation Orientée 
 
 <div align="center">
 
-![solo demo](./img/duo.png)
+![duo demo](./img/duo.png)
 
 </div>
 

@@ -1,15 +1,19 @@
-# Projet 2048
-### LIFAP7 : Algorithmique et Programmation Orientée Objet
+<div align="center">
 
-## Rendu graphique
+# 2048
+#### Algorithmique et Programmation Orientée Objet (2022)
 
-<p align="center" width="100%">
-<img src='./img/solo.png' height="350" width="300"/>
-</p>
-<p align="center" width="100%">
-<img src='./img/duo.png' height="350"/>
-</p>
+</div>
 
+## Sujet
+
+Projet réalisé dans le cadre de l'UE Algorithmique et Programmation Orientée Objet ([INF3007L](https://offre-de-formations.univ-lyon1.fr/ue-295-12%2Falgorithmique-et-programmation-orientee-objet.html)) à l'Université Claude Bernard Lyon 1.  
+
+<div align="center">
+
+![solo demo](./img/solo.png)
+
+</div>
 
 ## Fonctionnalités implémentées
 
@@ -19,9 +23,17 @@
 ✓ Possibilité de réinitialiser une partie  
 ✓ Version deux joueurs
 
-## Précisions sur le code 
+<div align="center">
+
+![solo demo](./img/duo.png)
+
+</div>
+
+## Précisions
 Le mouvement des Cases est réalisé grâce aux fonctions `void action(Direction direction)` de la classe `Jeu` et `boolean deplacer()` de la classe `Case`.
 
 La fonction `boolean deplacer()` permet de déplacer une tuile au maximum **vers le haut** et de la fusionner avec son voisin si ces dernières ont les mêmes valeurs. 
 
 La fonction `void action(Direction direction)` appelle la fonction `deplacer()` sur toutes les cases (sauf celles de la premieres lignes, car elles ne peuvent pas plus être plus ramenées vers le haut). Pour palier au fait que la fonction `deplacer()` ne permette de bouger les cases seulement vers le haut, on effectue une rotation du tableau `tabCases` avant et après le mouvement des Cases.
+
+Pour aller plus loin, vous pouvez lire le rapport de projet disponible [en cliquant ici](https://github.com/RhesusP/LIFAP7-2048-game/blob/master/Rapport%20de%20projet%20LIFAP7.pdf)
